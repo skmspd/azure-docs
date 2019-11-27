@@ -31,7 +31,7 @@ Output is always an Azure Cognitive Search index, used for fast text search, ret
 
 You need Azure Cognitive Search and Azure Blob storage. Within Blob storage, you need a container that provides source content.
 
-You can start directly in your Storage account portal page. In the left navigation page, under **Blob service** click **Add Azure Cognitive Search** to create a new service or select an existing one. 
+You can start directly in your Storage account portal page. In the left navigation page, under **Blob service** click **Add Azure Search** to create a new service or select an existing one. 
 
 Once you add Azure Cognitive Search to your storage account, you can follow the standard process to index blob data. We recommend the **Import data** wizard in Azure Cognitive Search for an easy initial introduction, or call the REST APIs using a tool like Postman. This tutorial walks you through the steps of calling the REST API in Postman: [Index and search semi-structured data (JSON blobs) in Azure Cognitive Search](search-semi-structured-data.md). 
 
